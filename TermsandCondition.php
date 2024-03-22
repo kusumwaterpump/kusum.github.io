@@ -90,7 +90,7 @@
       ?>
         <center>
             <div id="divmob" class="container">
-                <a href="mailto:info@waterssolarpumps.in"><i class="ion-ios-email-outline"></i>&nbsp;&nbsp;<b>info@waterssolarpumps.in</b></a><br />
+                <a href="mailto:info@waterssolarpumps.in"><i class="ion-ios-email-outline"></i>&nbsp;<b>info@waterssolarpumps.in</b></a><br />
                 <a href="tel:08235901517"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b>+91 8235901517</b></a>
             </div>
         </center>
