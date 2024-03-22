@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -60,36 +60,7 @@
 <body>
 
     <header>
-	<?php
-        if(isset($_SESSION['error'])){
-          echo "
-           <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'error',
-				layout: 'topRight',
-				text: '".$_SESSION['error']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['error']);
-        }
-        if(isset($_SESSION['success'])){
-          echo "
-            <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'success',
-				layout: 'topRight',
-				text: '".$_SESSION['success']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['success']);
-        }
-      ?>
+	
         <center>
             <div id="divmob" class="container">
                 <a href="mailto:info@waterssolarpumps.in"><i class="fa fa-envelope"></i>&nbsp;&nbsp;<b>info@waterssolarpumps.in</b></a><br />

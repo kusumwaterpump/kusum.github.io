@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,40 +57,11 @@
 <body>
 
     <header>
-	<?php
-        if(isset($_SESSION['error'])){
-          echo "
-           <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'error',
-				layout: 'topRight',
-				text: '".$_SESSION['error']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['error']);
-        }
-        if(isset($_SESSION['success'])){
-          echo "
-            <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'success',
-				layout: 'topRight',
-				text: '".$_SESSION['success']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['success']);
-        }
-      ?>
+	
         <center>
             <div id="divmob" class="container">
                 <a href="mailto:info@waterssolarpumps.in"><i class="ion-ios-email-outline"></i>&nbsp;&nbsp;<b>info@waterssolarpumps.in</b></a><br />
-                <a href="tel:"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b></b></a>
+                <a href="tel:07518799082"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b>+91 9836357257</b></a>
             </div>
         </center>
         <div class="middel-part__block">
@@ -243,24 +213,23 @@
     </div>
 
 
-
     
 
 
-
+<link href="../Content/NewTableCss.css" rel="stylesheet" />
 <div class="page-header parallax">
     <div class="container">
-        <h1 class="title">GOVT. INITIATIVE</h1>
+        <h1 class="title">SCHEME</h1>
     </div>
     <div class="breadcrumb-box">
         <div class="container">
             <nav aria-label="breadcrumb" role="navigation">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="index.php">Home</a>
+                        <a href="Index.html">Home</a>
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
-                        Govt. Initiative
+                        Scheme
                     </li>
                 </ol>
             </nav>
@@ -268,24 +237,87 @@
     </div>
 </div>
 
-<div id="about-section" class="padding pt-xs-60">
+<section class="subscribe-area ptb-100">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12 col-lg-12 pb-xs-30">
-                <div class="text-content">
-                    <p>
-                        <h3>Govt. Initiative</h3>
-                    </p>
-                    <p>
-                    KUSUM plot for sun arranged take-up by farmers The open specialist has disseminated the rules for the execution of Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM) plan for foundation of sun based siphons and framework related daylight based constrain plants by farmers. At show, more than 30 million agrarian siphons are presented in India. Of these, 10 million siphons are diesel based. More than 20 million cross section related cultivating water siphons presented within the country eat up 17% of the outright annually control utilization. The open specialist has disseminated the rules for the execution of Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM) plan for foundation of sun arranged siphons and system related daylight based constrain plants by farmers. Portion An Beneath section A, sun arranged or other Renewable Energy-based Control Plants (REPP) of constrain between 500 kilowatts (Kw) and 2 Mw will be set up by particular farmers or gathering of farmers or cooperatives or skillet.
-                    </p>
-                </div>
+        <br />
+        <br />
+        <center>
+            <div class="section-title">
+                <h3>SOLAR PUMP TYPE</h3>
             </div>
-        </div>
+        </center>
+        <table style="margin-bottom:30px;">
+            <thead>
+                <tr>
+                    <th>SL.</th>
+                    <th>Types of solar pumping systems</th>
+                    <th>Beneficiary farmer share (Rs.)</th>
+                    <th>Discharge (in liters per day)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>1 HPDC Submersible</td>
+                    <td>19000/-</td>
+                    <td>30 m For 45600, Shut of dynamic head 45m.</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2 HPDC Surface</td>
+                    <td>23000/-</td>
+                    <td>10 m For 198000, shut of dynamic head 12m.</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>2 HPDC Submersible</td>
+                    <td>25000/-</td>
+                    <td>30 m For 68400, Shut of Dynamic Head 45m.</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>3 HPDC Submersible</td>
+                    <td>36000/-</td>
+                    <td>
+                        30 m For 114000, Shut of Dynamic Head 45m.<br />
+                        50 m For 69000, shut of dynamic head 70m.<br />
+                        70 m For 45000, shut of dynamic head 100m.
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>5 HPDC Submersible</td>
+                    <td>72000/-</td>
+                    <td>
+                        50 m For 110400, shut of dynamic head 70m.<br />
+                        70 m For 72000, Shut of Dynamic Head 100m.<br />
+                        100 m For 50400, shut of dynamic head 150m.
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>7.5 HPDC Submersible</td>
+                    <td>135000/-</td>
+                    <td>
+                        50 m For 155250, Shut of Dynamic Head 70m.<br />
+                        70 m For 101250, shut of dynamic head 100m.<br />
+                        100 m For 70875, Shut of dynamic head 150m.
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>7.5 H.P.A.C. Submersible</td>
+                    <td>135000/-</td>
+                    <td>
+                        50 m For 141750, Shut of Dynamic Head 70m.<br />
+                        70 m For 94500, shut of dynamic head 100m.<br />
+                        100 m For 60750, shut of dynamic head 150m.
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
-</div>
-
-
+</section>
 
     <footer class="footer pt-80 pt-xs-40">
         <div class="container">
@@ -320,17 +352,18 @@
                 <div class="col-lg-5 col-md-5 col-xs-12 mb-sm-30">
                     <h4 class="mb-30 text-uppercase">CONTACT Us</h4>
                     <address>
-                        <i class="ion-ios-location fa-icons"></i> <b>Head office:</b>  Block-14, CGO Complex, Lodhi Road, ND-110003
+                      <i class='fas fa-map-marker-alt' style='font-size:48px;color:red'></i>
+ <b>Head office:</b>, Block-14, CGO Complex, Lodhi Road, ND-110003
                     </address>
                     <address>
-                        <i class="ion-ios-location fa-icons"></i> <b>Corporate Office:</b> 37/a Ambika Mukherjee Road Sodepur Kolkata West Bengal 7000113
+                        <i class="fas fa-map-marker-alt"></i> <b>Corporate Office:</b> 37/a Ambika Mukherjee Road Sodepur Kolkata West Bengal 7000113
                     </address>
                     <ul class="link-small">
                         <li>
-                            <a href="mailto:info@waterssolarpumps.in"><i class="ion-ios-email fa-icons"></i>info@waterssolarpumps.in</a>
+                            <a href="mailto:info@waterssolarpumps.in"><i class="fa-envelope"></i>info@waterssolarpumps.in</a>
                         </li>
                         <li>
-                            <a href="tel:"><i class="ion-ios-telephone fa-icons"></i></a>
+                            <a href="tel:07518799082"><i class=" fa-phone"></i>+91 9836357257</a>
                         </li>
                     </ul>
                     
@@ -348,7 +381,6 @@
         </div>
         <!-- End Copyright Bar -->
     </footer>
-
 
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/tether.min.js"></script>

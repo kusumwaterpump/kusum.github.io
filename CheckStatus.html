@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -56,36 +56,7 @@
 
 </head>
 <body>
-    	<?php
-        if(isset($_SESSION['error'])){
-          echo "
-           <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'error',
-				layout: 'topRight',
-				text: '".$_SESSION['error']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['error']);
-        }
-        if(isset($_SESSION['success'])){
-          echo "
-            <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'success',
-				layout: 'topRight',
-				text: '".$_SESSION['success']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['success']);
-        }
-      ?>
+    
     <!--loader-->
     <!--loader-->
     <!--Header Section Start Here

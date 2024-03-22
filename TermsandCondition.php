@@ -1,4 +1,3 @@
-<?php session_start(); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,40 +57,11 @@
 <body>
 
     <header>
-	<?php
-        if(isset($_SESSION['error'])){
-          echo "
-           <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'error',
-				layout: 'topRight',
-				text: '".$_SESSION['error']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['error']);
-        }
-        if(isset($_SESSION['success'])){
-          echo "
-            <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'success',
-				layout: 'topRight',
-				text: '".$_SESSION['success']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['success']);
-        }
-      ?>
+	
         <center>
             <div id="divmob" class="container">
                 <a href="mailto:info@waterssolarpumps.in"><i class="ion-ios-email-outline"></i>&nbsp;&nbsp;<b>info@waterssolarpumps.in</b></a><br />
-                <a href="tel:09836357257"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b>+91 9836357257</b></a>
+                <a href="tel:007518799082"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b>+91 07518799082</b></a>
             </div>
         </center>
         <div class="middel-part__block">
@@ -401,7 +371,7 @@
                             <a href="mailto:info@waterssolarpumps.in"><i class="fa-envelope"></i>info@waterssolarpumps.in</a>
                         </li>
                         <li>
-                            <a href="tel:09836357257"><i class=" fa-phone"></i>+91 9836357257</a>
+                            <a href="tel:007518799082"><i class=" fa-phone"></i>+91 07518799082</a>
                         </li>
                     </ul>
                     

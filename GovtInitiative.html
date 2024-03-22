@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,40 +58,11 @@
 <body>
 
     <header>
-	<?php
-        if(isset($_SESSION['error'])){
-          echo "
-           <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'error',
-				layout: 'topRight',
-				text: '".$_SESSION['error']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['error']);
-        }
-        if(isset($_SESSION['success'])){
-          echo "
-            <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'success',
-				layout: 'topRight',
-				text: '".$_SESSION['success']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['success']);
-        }
-      ?>
+	
         <center>
             <div id="divmob" class="container">
-                <a href="mailto:info@waterssolarpumps.com"><i class="ion-ios-email-outline"></i>&nbsp;&nbsp;<b>info@waterssolarpumps.in</b></a><br />
-                <a href="tel:07518799082"><i class="ion-ios-telephone fa-icons">07518799082</i>&nbsp;&nbsp;<b> </b></a>
+                <a href="mailto:info@waterssolarpumps.in"><i class="ion-ios-email-outline"></i>&nbsp;&nbsp;<b>info@waterssolarpumps.in</b></a><br />
+                <a href="tel:"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b></b></a>
             </div>
         </center>
         <div class="middel-part__block">
@@ -243,57 +214,41 @@
     </div>
 
 
+
     
 
 
 
 <div class="page-header parallax">
     <div class="container">
-        <h1 class="title">DISCLAIMER</h1>
+        <h1 class="title">GOVT. INITIATIVE</h1>
     </div>
     <div class="breadcrumb-box">
         <div class="container">
             <nav aria-label="breadcrumb" role="navigation">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item">
-                        <a href="Index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
-                        Disclaimer
+                        Govt. Initiative
                     </li>
                 </ol>
             </nav>
         </div>
     </div>
 </div>
+
 <div id="about-section" class="padding pt-xs-60">
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-12 pb-xs-30">
                 <div class="text-content">
                     <p>
-                        <h3>DISCLAIMER</h3>
+                        <h3>Govt. Initiative</h3>
                     </p>
                     <p>
-                        <h5>Disclaimer</h5>
-                    </p>
-                    <p>
-                        On the off chance that you require any more data or have any questions almost our site's disclaimer, if it's not too much trouble feel free to contact us..
-                    </p>
-                    <p>
-                       All the information on this location - https://kusumyojanakisan.com - is disseminated in compliance with common goodness and for common information reason because it were. https://kusumyojanakisan.com doesn't make any ensures around the fulfillment, steadfastness and precision of this information. Any move you make upon the information you discover on this location (https://kusumyojanakisan.com), is stringently at your claim threat. https://kusumyojanakisan.com won't be dependable for any mishaps and also hurts with respect to the utilization of our site. From our location, you'll visit distinctive destinations by taking after hyperlinks to such exterior districts. Whereas we endeavor to deliver fair quality interfaces to profitable and ethical destinations, we have no impact over the substance and nature of these goals. These interfaces to distinctive destinations do not gather a proposal for all the substance found on these goals. Location proprietors and substance may alter without take note and may happen some time recently we have the chance.
-                    </p>
-                    <p>
-                        <h5>Consent</h5>
-                    </p>
-                    <p>
-                        By utilizing our site, you thusly agree to our disclaimer and consent to its terms.
-                    </p>
-                    <p>
-                        <h5>Update</h5>
-                    </p>
-                    <p>
-                        Should we update, alter or roll out any improvements to this record, those progressions will be conspicuously posted here.
+                    KUSUM plot for sun arranged take-up by farmers The open specialist has disseminated the rules for the execution of Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM) plan for foundation of sun based siphons and framework related daylight based constrain plants by farmers. At show, more than 30 million agrarian siphons are presented in India. Of these, 10 million siphons are diesel based. More than 20 million cross section related cultivating water siphons presented within the country eat up 17% of the outright annually control utilization. The open specialist has disseminated the rules for the execution of Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM) plan for foundation of sun arranged siphons and system related daylight based constrain plants by farmers. Portion An Beneath section A, sun arranged or other Renewable Energy-based Control Plants (REPP) of constrain between 500 kilowatts (Kw) and 2 Mw will be set up by particular farmers or gathering of farmers or cooperatives or skillet.
                     </p>
                 </div>
             </div>
@@ -302,7 +257,8 @@
 </div>
 
 
- <footer class="footer pt-80 pt-xs-40">
+
+    <footer class="footer pt-80 pt-xs-40">
         <div class="container">
             <!--Footer Info -->
             <div class="row footer-info mb-60">
@@ -335,18 +291,17 @@
                 <div class="col-lg-5 col-md-5 col-xs-12 mb-sm-30">
                     <h4 class="mb-30 text-uppercase">CONTACT Us</h4>
                     <address>
-                      <i class='fas fa-map-marker-alt' style='font-size:48px;color:red'></i>
- <b>Head office:</b>Block-14, CGO Complex, Lodhi Road, ND-110003
+                        <i class="ion-ios-location fa-icons"></i> <b>Head office:</b>  Block-14, CGO Complex, Lodhi Road, ND-110003
                     </address>
                     <address>
-                        <i class="fas fa-map-marker-alt"></i> <b>Corporate Office:</b> 37/a Ambika Mukherjee Road Sodepur Kolkata West Bengal 7000113
+                        <i class="ion-ios-location fa-icons"></i> <b>Corporate Office:</b> 37/a Ambika Mukherjee Road Sodepur Kolkata West Bengal 7000113
                     </address>
                     <ul class="link-small">
                         <li>
-                            <a href="mailto:info@waterssolarpumps.in"><i class="fa-envelope"></i>info@waterssolarpumps.in</a>
+                            <a href="mailto:info@waterssolarpumps.in"><i class="ion-ios-email fa-icons"></i>info@waterssolarpumps.in</a>
                         </li>
                         <li>
-                            <a href="tel:"><i class=" fa-phone"></i></a>
+                            <a href="tel:"><i class="ion-ios-telephone fa-icons"></i></a>
                         </li>
                     </ul>
                     
@@ -364,6 +319,7 @@
         </div>
         <!-- End Copyright Bar -->
     </footer>
+
 
     <script type="text/javascript" src="./js/jquery.min.js"></script>
     <script type="text/javascript" src="./js/tether.min.js"></script>

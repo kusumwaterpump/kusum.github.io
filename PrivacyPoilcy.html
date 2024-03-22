@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,7 +11,6 @@
     <meta property="og:title" content="कुसुम योजना ऑनलाइन आवेदन 2021: Kusum Yojana Registration, आवेदन फार्म" />
     <meta property="og:description" content="Apply Online For Rajasthan Kusam Yojana 2021 | Application Form Kusum Solar Pump Yojana | कुसुम योजना ऑनलाइन आवेदन 2021 | Online Registration Kusum Scheme" />
     <meta property="og:url" content="https://waterssolarpumps.in/" />
-    <meta property="og:site_name" content="PM Modi Yojana" />
     <meta property="article:tag" content="Apply Online Kusam Solar Pump Yojana" />
     <meta property="article:tag" content="Rajasthan Kusum Yojana Application Form" />
     <meta property="article:tag" content="कुसुम योजना ऑनलाइन आवेदन" />
@@ -59,39 +58,10 @@
 <body>
 
     <header>
-	<?php
-        if(isset($_SESSION['error'])){
-          echo "
-           <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'error',
-				layout: 'topRight',
-				text: '".$_SESSION['error']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['error']);
-        }
-        if(isset($_SESSION['success'])){
-          echo "
-            <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'success',
-				layout: 'topRight',
-				text: '".$_SESSION['success']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['success']);
-        }
-      ?>
+	
         <center>
             <div id="divmob" class="container">
-                <a href="mailto:info@kisankusumyoujana-reg.com"><i class="ion-ios-email-outline"></i>&nbsp;&nbsp;<b>info@kisankusumyoujana-reg.com</b></a><br />
+                <a href="mailto:info@waterssolarpumps.in"><i class="ion-ios-email-outline"></i>&nbsp;&nbsp;<b>info@waterssolarpumps.in</b></a><br />
                 <a href="tel:8235901517"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b>+91 8235901517</b></a>
             </div>
         </center>
@@ -226,18 +196,12 @@
                     </div>
                     <div class="form-group col-xs-12">
                         <select name="loanamt" id="txtpmp" class="customize form-control" style="border-radius:10px;" required>
-                        <option>Select Motor</option>
-                      <option>1HP</option>
-                      <option>2HP</option>
-                      <option>3HP</option>
-                      <option>4HP</option>
-                      <option>5HP</option>
-                      <option>6HP</option>
-                      <option>7HP</option>
-                      <option>8HP</option>
-                      <option>9HP</option>
-                      <option>10HP</option>
-                      <option>Above 10HP</option>
+                            <option selected disabled>Select Power (KWH/MWH)</option>
+                            <?php
+                            for($i=2; $i<=16; $i+=2){
+                            ?>
+                            <option value="<?php echo $i; ?> (KWH/MWH)"><?php echo $i; ?> (KWH/MWH)</option>
+                            <?php } ?>
                         </select>
                         
                     </div>
@@ -256,7 +220,7 @@
 
 <div class="page-header parallax">
     <div class="container">
-        <h1 class="title">WHO CAN APPLY</h1>
+        <h1 class="title">PRIVACY POLICY</h1>
     </div>
     <div class="breadcrumb-box">
         <div class="container">
@@ -266,7 +230,7 @@
                         <a href="Index.html">Home</a>
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
-                        Who Can Apply
+                        Privacy Policy
                     </li>
                 </ol>
             </nav>
@@ -280,23 +244,98 @@
             <div class="col-md-12 col-lg-12 pb-xs-30">
                 <div class="text-content">
                     <p>
-                        <h3>Who Can Apply</h3>
+                        <h3>Privacy Policy</h3>
                     </p>
                     <p>
-                        <h5>Benefits Of Kusum Yojana</h5>
+                        <h5>Police Results in Privacy Policy</h5>
                     </p>
                     <p>
-                        <b>The following are the list of benefits under Kusum Yojana</b>
+                        Securing your security is crucial to us and we have built up this security procedure to guarantee your possess information and keep it secret..
                     </p>
-                    <ul>
-                        <li><b>Ranchers will be furnished with the alternative to sell the additional force straightforwardly to the public authority that would assist the ranchers with extra pay.</b></li><br />
-                        <li><b>The public authority has likewise stepped up and develop plants, that would produce sun oriented force. According to the draft, these plants are fit for creating a sum of 28,250 MW power.</b></li><br />
-                        <li><b>Aside from the sun oriented force plants, the public authority run after the new sun powered siphons with the diesel siphons that holds the limit of 720 MW. This plan additionally gives ranchers the chance to bring in additional cash by introducing sun based siphons. The measure of energy produced extra, can be offered to the public authority.</b></li><br />
-                        <li><b>Each rancher will get a gigantic endowment on this better than ever sun based controlled siphons. The ranchers should raise just 10% of the all out cost for this reason.</b></li><br />
-                        <li><b>The focal government will give 60% sponsorship to the qualified ranchers on the absolute expense of the sun based siphon, and the excess 30% of the expense will be given as credit by the banks.</b></li>
-                    </ul>
                     <p>
-                        <b>• The expanded utilization of sunlight based force and power from sun based plants will bring down the contamination level in the homestead.</b>
+                        This Privacy Policy administers the way wherein Police Results gathers, utilizes, keeps up and unveils data gathered from clients (each, a "Client") of the waterssolarpumps.in
+ ("Site" or "Police Results"). This protection strategy applies to the Site and all items and administrations offered by waterssolarpumps.in
+
+                    </p>
+                    <p>
+                        Police Results has distributed this security strategy to announce our site's obligation to protection. The protection strategy has been accumulated to all the more likely serve those clients who are worried about how their "Own Identifiable Information" is being utilized on the web. Individual Identifiable Information, as utilized in US protection law and data security, is data that can be utilized all alone or with other data to recognize, contact, or find an individual, or to distinguish a person in setting. The accompanying reveals the data get-together and scattering rehearses for waterssolarpumps.in
+
+                    </p>
+                    <p>
+                        <h5>User Personal Information</h5>
+                    </p>
+                    <p>
+                        We may gather individual recognizable proof data from clients aly, including, yet not restricted to, when clients visit waterssolarpumps.in
+ register on the webpage, and regarding different administrations, exercises, highlights or assets accessible on our website. Clients might be requested, as suitable, name and emil address. Be that as it may, clients may likewise utilize our Police Results secretly. WE WILL COLLECT PERSONAL IDENTIFICATION INFORMATION FROM USERS ONLY IF THEY VOLUNTARILY SUBMIT SUCH INFORMATION TO US. Clients can generally decline to give such close to home ID data, then again, actually it might reject them from utilizing not many certain exercises on our site.
+                    </p>
+                    <p>
+                        <h5>Non-Personal Information</h5>
+                    </p>
+                    <p>
+                        We may gather non-individual recognizable proof data about clients at whatever point they utilize our site. Non-individual ID data may incorporate the program name, the gadget being utilized and specialized data about clients methods for association with our site. We may utilize your Network IP and comparative data, for example, web access supplier being used.
+                    </p>
+                    <p>
+                        <h5>User Information Protection</h5>
+                    </p>
+                    <p>
+                        The data gathered by us, in any case, just in the event that you deliberately submit, for example, by enrolling at our site, pursue pamphlet or utilizing certain site highlights, are never imparted to outsiders and isn't sold, leased or exchanged for any business or individual reason at all.
+                    </p>
+                    <p>
+                        kisankusumyoujana-reg.info just gives news stories and data and we never request private data like government backed retirement number or Visa subtleties. The site is examined consistently for security reasons and malware weaknesses to make our site safe and ensure client's very own data, just whenever given by client themselves.
+                    </p>
+                    <p>
+                        We likewise honor "don't follow" flags and don't follow, plant treats, or use promoting when a Do Not Track (DNT) program instrument is set up. Police Results doesn't permit outsider social following by the same token.
+                    </p>
+                    <p>
+                        As per Fair Information Practices, we will advise our supporters, clients inside 2 work days through email.
+                    </p>
+                    <p>
+                        As per CAN SPAM act, we consent to immediately eliminate supporters from all correspondence upon client's solicitation for withdrawing from accepting any future messages. You can mail us at [info@waterssolarpumps.in] to demand to withdraw.
+                    </p>
+                    <p>
+                        <h5>Use of Collected Information</h5>
+                    </p>
+                    <p>
+                        kisankusumyoujana-reg.info may gather and utilize client's very own recognizable proof data for improving client assistance and backing, to customize client experience, to react to client's enquiries and demands, and to improve the nature of our substance and administrations, items, in view of the criticism you give. Nonetheless, We are rigorously against reevaluating, selling of client's data.
+                    </p>
+                    <p>
+                        <h5>Cookies</h5>
+                    </p>
+                    <p>
+                        Our Site may utilize "treats" to upgrade User experience. "Treats" are utilized to recognize and relate non-individual information to people. "Treats" are little records that a webpage or its specialist co-op moves to your PC's hard drive through your Web program (in the event that you permit) that empowers the website's or specialist co-op's frameworks to perceive your program and catch and recall certain data.
+                    </p>
+                    <p>
+                        Client's internet browser places treats on their hard drive for record-keeping purposes and at times to follow data about them. Client may decide to set their internet browser to decline treats, or to caution you when treats are being sent. In the event that they do as such, note that a few pieces of the site may not capacity appropriately.
+                    </p>
+                    <p>
+                        <h5>Compliance With Children’s Online Privacy Protection Act (COPPA)</h5>
+                    </p>
+                    <p>
+                        Ensuring the individual recognizable proof data of youngsters is vital to us. We regard Children's Online Privacy Protection Act and consequently, WE NEVER COLLECT OR MAINTAIN PERSONAL INFORMATION AT EXAMS WATCH FROM CHILDREN UNDER 13.
+                    </p>
+                    <p>
+                        NO substance or administrations on kisankusumyoujana-reg.info are organized to draw in youngsters under 13 and we explicitly don't market to anybody younger than 13, staying aware of the COPPA consistence which places guardians in charge.
+                    </p>
+                    <p>
+                        <h5>Advertising</h5>
+                    </p>
+                    <p>
+                        Notices showing up on kisankusumyoujana-reg.info might be conveyed to clients by publicizing accomplices, who may set treats. These treats permit the promotion worker to perceive your PC each time they send you an online notice to accumulate non individual distinguishing proof data about you or other people who utilize your PC. This data permits promotion organizations to, in addition to other things, convey focused on ads that they accept will be of most interest to you. This security strategy doesn't cover the utilization of treats by any promoters.
+                    </p>
+                    <p>
+                        <h5>Google</h5>
+                    </p>
+                    <p>
+                        Google's promoting prerequisites can be summarized by Google's Advertising Principles. They are set up to give a positive encounter to clients, and can be checked at https://support.google.com/adwordspolicy/answer/6008942?hl=en&rd=1. We use Google AdSense Advertising (Google adsense program) on our site.
+                    </p>
+                    <p>
+                        Google, as an outsider merchant, utilizes treats to serve advertisements on our site. Google's utilization of the DART treat empowers it to serve promotions to our clients dependent on their visit to our webpage and different destinations on the Internet. Clients may quit the utilization of the DART treat by visiting the Google advertisement and substance network security strategy.
+                    </p>
+                    <p>
+                        <h5>Acceptance of Terms</h5>
+                    </p>
+                    <p>
+                        By utilizing waterssolarpumps.in you show your acknowledgment for this strategy. In the event that you don't consent to security strategy of Police Results, kindly don't utilize waterssolarpumps.in. Your proceeded with utilization of the site following the progressions to this strategy, will be considered your consent to those changes.
                     </p>
                 </div>
             </div>
@@ -306,13 +345,12 @@
 
 
 
-    <footer class="footer pt-80 pt-xs-40">
+   <footer class="footer pt-80 pt-xs-40">
         <div class="container">
             <!--Footer Info -->
             <div class="row footer-info mb-60">
                 <div class="col-lg-5 col-md-4 col-xs-12 mb-sm-30">
                     <h4 class="mb-30 text-uppercase">ABOUT US</h4>
-                    <p>According to the Agriculture Minister of the country, Narendra Singh Tomar, 20 lakh farmers will be offered standalone solar pumps under the scheme.</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-xs-12 mb-sm-30">
                     <h4 class="mb-30 text-uppercase">Links</h4>
@@ -341,17 +379,17 @@
                     <h4 class="mb-30 text-uppercase">CONTACT Us</h4>
                     <address>
                       <i class='fas fa-map-marker-alt' style='font-size:48px;color:red'></i>
- <b>Head office:</b> Ministry of New renewable energy, Block-14, CGO Complex, Lodhi Road, ND-110003
+ <b>Head office:</b>  Block-14, CGO Complex, Lodhi Road, ND-110003
                     </address>
                     <address>
                         <i class="fas fa-map-marker-alt"></i> <b>Corporate Office:</b> 37/a Ambika Mukherjee Road Sodepur Kolkata West Bengal 7000113
                     </address>
                     <ul class="link-small">
                         <li>
-                            <a href="mailto:info@kisankusumyoujana-reg.com"><i class="fa-envelope"></i>info@kisankusumyoujana-reg.com</a>
+                            <a href="mailto:info@waterssolarpumps.in"><i class="fa-envelope"></i>info@waterssolarpumps.in</a>
                         </li>
                         <li>
-                            <a href="tel:8235901517"><i class=" fa-phone"></i>+91 8235901517</a>
+                            <a href="tel:07518799082"><i class=" fa-phone"></i>+91 9836357257</a>
                         </li>
                     </ul>
                     

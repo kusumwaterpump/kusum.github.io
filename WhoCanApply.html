@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,6 +11,7 @@
     <meta property="og:title" content="कुसुम योजना ऑनलाइन आवेदन 2021: Kusum Yojana Registration, आवेदन फार्म" />
     <meta property="og:description" content="Apply Online For Rajasthan Kusam Yojana 2021 | Application Form Kusum Solar Pump Yojana | कुसुम योजना ऑनलाइन आवेदन 2021 | Online Registration Kusum Scheme" />
     <meta property="og:url" content="https://waterssolarpumps.in/" />
+    <meta property="og:site_name" content="PM Modi Yojana" />
     <meta property="article:tag" content="Apply Online Kusam Solar Pump Yojana" />
     <meta property="article:tag" content="Rajasthan Kusum Yojana Application Form" />
     <meta property="article:tag" content="कुसुम योजना ऑनलाइन आवेदन" />
@@ -58,40 +59,11 @@
 <body>
 
     <header>
-	<?php
-        if(isset($_SESSION['error'])){
-          echo "
-           <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'error',
-				layout: 'topRight',
-				text: '".$_SESSION['error']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['error']);
-        }
-        if(isset($_SESSION['success'])){
-          echo "
-            <script type='text/javascript'>
-		   new Noty({
-			    theme: 'sunset',
-				type: 'success',
-				layout: 'topRight',
-				text: '".$_SESSION['success']."',
-				timeout: 3000
-			}).show();
-		   </script>
-          ";
-          unset($_SESSION['success']);
-        }
-      ?>
+	
         <center>
             <div id="divmob" class="container">
-                <a href="mailto:info@waterssolarpumps.in"><i class="ion-ios-email-outline"></i>&nbsp;&nbsp;<b>info@waterssolarpumps.in</b></a><br />
-                <a href="tel:07518799082"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b>+91 9836357257</b></a>
+                <a href="mailto:info@kisankusumyoujana-reg.com"><i class="ion-ios-email-outline"></i>&nbsp;&nbsp;<b>info@kisankusumyoujana-reg.com</b></a><br />
+                <a href="tel:8235901517"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b>+91 8235901517</b></a>
             </div>
         </center>
         <div class="middel-part__block">
@@ -225,12 +197,18 @@
                     </div>
                     <div class="form-group col-xs-12">
                         <select name="loanamt" id="txtpmp" class="customize form-control" style="border-radius:10px;" required>
-                            <option selected disabled>Select Power (KWH/MWH)</option>
-                            <?php
-                            for($i=2; $i<=16; $i+=2){
-                            ?>
-                            <option value="<?php echo $i; ?> (KWH/MWH)"><?php echo $i; ?> (KWH/MWH)</option>
-                            <?php } ?>
+                        <option>Select Motor</option>
+                      <option>1HP</option>
+                      <option>2HP</option>
+                      <option>3HP</option>
+                      <option>4HP</option>
+                      <option>5HP</option>
+                      <option>6HP</option>
+                      <option>7HP</option>
+                      <option>8HP</option>
+                      <option>9HP</option>
+                      <option>10HP</option>
+                      <option>Above 10HP</option>
                         </select>
                         
                     </div>
@@ -246,10 +224,10 @@
     
 
 
-<link href="../Content/NewTableCss.css" rel="stylesheet" />
+
 <div class="page-header parallax">
     <div class="container">
-        <h1 class="title">SCHEME</h1>
+        <h1 class="title">WHO CAN APPLY</h1>
     </div>
     <div class="breadcrumb-box">
         <div class="container">
@@ -259,7 +237,7 @@
                         <a href="Index.html">Home</a>
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
-                        Scheme
+                        Who Can Apply
                     </li>
                 </ol>
             </nav>
@@ -267,87 +245,37 @@
     </div>
 </div>
 
-<section class="subscribe-area ptb-100">
+<div id="about-section" class="padding pt-xs-60">
     <div class="container">
-        <br />
-        <br />
-        <center>
-            <div class="section-title">
-                <h3>SOLAR PUMP TYPE</h3>
+        <div class="row">
+            <div class="col-md-12 col-lg-12 pb-xs-30">
+                <div class="text-content">
+                    <p>
+                        <h3>Who Can Apply</h3>
+                    </p>
+                    <p>
+                        <h5>Benefits Of Kusum Yojana</h5>
+                    </p>
+                    <p>
+                        <b>The following are the list of benefits under Kusum Yojana</b>
+                    </p>
+                    <ul>
+                        <li><b>Ranchers will be furnished with the alternative to sell the additional force straightforwardly to the public authority that would assist the ranchers with extra pay.</b></li><br />
+                        <li><b>The public authority has likewise stepped up and develop plants, that would produce sun oriented force. According to the draft, these plants are fit for creating a sum of 28,250 MW power.</b></li><br />
+                        <li><b>Aside from the sun oriented force plants, the public authority run after the new sun powered siphons with the diesel siphons that holds the limit of 720 MW. This plan additionally gives ranchers the chance to bring in additional cash by introducing sun based siphons. The measure of energy produced extra, can be offered to the public authority.</b></li><br />
+                        <li><b>Each rancher will get a gigantic endowment on this better than ever sun based controlled siphons. The ranchers should raise just 10% of the all out cost for this reason.</b></li><br />
+                        <li><b>The focal government will give 60% sponsorship to the qualified ranchers on the absolute expense of the sun based siphon, and the excess 30% of the expense will be given as credit by the banks.</b></li>
+                    </ul>
+                    <p>
+                        <b>• The expanded utilization of sunlight based force and power from sun based plants will bring down the contamination level in the homestead.</b>
+                    </p>
+                </div>
             </div>
-        </center>
-        <table style="margin-bottom:30px;">
-            <thead>
-                <tr>
-                    <th>SL.</th>
-                    <th>Types of solar pumping systems</th>
-                    <th>Beneficiary farmer share (Rs.)</th>
-                    <th>Discharge (in liters per day)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>1 HPDC Submersible</td>
-                    <td>19000/-</td>
-                    <td>30 m For 45600, Shut of dynamic head 45m.</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>2 HPDC Surface</td>
-                    <td>23000/-</td>
-                    <td>10 m For 198000, shut of dynamic head 12m.</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>2 HPDC Submersible</td>
-                    <td>25000/-</td>
-                    <td>30 m For 68400, Shut of Dynamic Head 45m.</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>3 HPDC Submersible</td>
-                    <td>36000/-</td>
-                    <td>
-                        30 m For 114000, Shut of Dynamic Head 45m.<br />
-                        50 m For 69000, shut of dynamic head 70m.<br />
-                        70 m For 45000, shut of dynamic head 100m.
-                    </td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>5 HPDC Submersible</td>
-                    <td>72000/-</td>
-                    <td>
-                        50 m For 110400, shut of dynamic head 70m.<br />
-                        70 m For 72000, Shut of Dynamic Head 100m.<br />
-                        100 m For 50400, shut of dynamic head 150m.
-                    </td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>7.5 HPDC Submersible</td>
-                    <td>135000/-</td>
-                    <td>
-                        50 m For 155250, Shut of Dynamic Head 70m.<br />
-                        70 m For 101250, shut of dynamic head 100m.<br />
-                        100 m For 70875, Shut of dynamic head 150m.
-                    </td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>7.5 H.P.A.C. Submersible</td>
-                    <td>135000/-</td>
-                    <td>
-                        50 m For 141750, Shut of Dynamic Head 70m.<br />
-                        70 m For 94500, shut of dynamic head 100m.<br />
-                        100 m For 60750, shut of dynamic head 150m.
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        </div>
     </div>
-</section>
+</div>
+
+
 
     <footer class="footer pt-80 pt-xs-40">
         <div class="container">
@@ -355,6 +283,7 @@
             <div class="row footer-info mb-60">
                 <div class="col-lg-5 col-md-4 col-xs-12 mb-sm-30">
                     <h4 class="mb-30 text-uppercase">ABOUT US</h4>
+                    <p>According to the Agriculture Minister of the country, Narendra Singh Tomar, 20 lakh farmers will be offered standalone solar pumps under the scheme.</p>
                 </div>
                 <div class="col-lg-2 col-md-3 col-xs-12 mb-sm-30">
                     <h4 class="mb-30 text-uppercase">Links</h4>
@@ -383,17 +312,17 @@
                     <h4 class="mb-30 text-uppercase">CONTACT Us</h4>
                     <address>
                       <i class='fas fa-map-marker-alt' style='font-size:48px;color:red'></i>
- <b>Head office:</b>, Block-14, CGO Complex, Lodhi Road, ND-110003
+ <b>Head office:</b> Ministry of New renewable energy, Block-14, CGO Complex, Lodhi Road, ND-110003
                     </address>
                     <address>
                         <i class="fas fa-map-marker-alt"></i> <b>Corporate Office:</b> 37/a Ambika Mukherjee Road Sodepur Kolkata West Bengal 7000113
                     </address>
                     <ul class="link-small">
                         <li>
-                            <a href="mailto:info@waterssolarpumps.in"><i class="fa-envelope"></i>info@waterssolarpumps.in</a>
+                            <a href="mailto:info@kisankusumyoujana-reg.com"><i class="fa-envelope"></i>info@kisankusumyoujana-reg.com</a>
                         </li>
                         <li>
-                            <a href="tel:07518799082"><i class=" fa-phone"></i>+91 9836357257</a>
+                            <a href="tel:8235901517"><i class=" fa-phone"></i>+91 8235901517</a>
                         </li>
                     </ul>
                     
