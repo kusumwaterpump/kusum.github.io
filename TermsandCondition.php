@@ -91,7 +91,7 @@
         <center>
             <div id="divmob" class="container">
                 <a href="mailto:info@waterssolarpumps.in"><i class="ion-ios-email-outline"></i>&nbsp;&nbsp;<b>info@waterssolarpumps.in</b></a><br />
-                <a href="tel:09836357257"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b>+91 9836357257</b></a>
+                <a href="tel:08235901517"><i class="ion-ios-telephone fa-icons"></i>&nbsp;&nbsp;<b>+91 8235901517</b></a>
             </div>
         </center>
         <div class="middel-part__block">
@@ -401,7 +401,7 @@
                             <a href="mailto:info@waterssolarpumps.in"><i class="fa-envelope"></i>info@waterssolarpumps.in</a>
                         </li>
                         <li>
-                            <a href="tel:09836357257"><i class=" fa-phone"></i>+91 9836357257</a>
+                            <a href="tel:08235901517"><i class=" fa-phone"></i>+91 8235901517</a>
                         </li>
                     </ul>
                     
